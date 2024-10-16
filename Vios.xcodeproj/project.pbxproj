@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB95EE172CC01628007118CF /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FB95EE162CC01628007118CF /* RealityKitContent */; };
+		FB95EE192CC01628007118CF /* ViosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95EE182CC01628007118CF /* ViosApp.swift */; };
+		FB95EE1B2CC01628007118CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95EE1A2CC01628007118CF /* ContentView.swift */; };
+		FB95EE1D2CC01628007118CF /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95EE1C2CC01628007118CF /* ImmersiveView.swift */; };
+		FB95EE1F2CC01628007118CF /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = FB95EE1E2CC01628007118CF /* ImageBasedLighting.skybox */; };
+		FB95EE212CC01628007118CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB95EE202CC01628007118CF /* Assets.xcassets */; };
+		FB95EE242CC01628007118CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB95EE232CC01628007118CF /* Preview Assets.xcassets */; };
+		FB95EE2F2CC01628007118CF /* ViosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95EE2E2CC01628007118CF /* ViosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB95EE2B2CC01628007118CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB95EE092CC01628007118CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB95EE102CC01628007118CF;
+			remoteInfo = Vios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB95EE112CC01628007118CF /* Vios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB95EE152CC01628007118CF /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		FB95EE182CC01628007118CF /* ViosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViosApp.swift; sourceTree = "<group>"; };
+		FB95EE1A2CC01628007118CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB95EE1C2CC01628007118CF /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		FB95EE1E2CC01628007118CF /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		FB95EE202CC01628007118CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB95EE232CC01628007118CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB95EE252CC01628007118CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB95EE2A2CC01628007118CF /* ViosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB95EE2E2CC01628007118CF /* ViosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB95EE0E2CC01628007118CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95EE172CC01628007118CF /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95EE272CC01628007118CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB95EE082CC01628007118CF = {
+			isa = PBXGroup;
+			children = (
+				FB95EE132CC01628007118CF /* Vios */,
+				FB95EE142CC01628007118CF /* Packages */,
+				FB95EE2D2CC01628007118CF /* ViosTests */,
+				FB95EE122CC01628007118CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB95EE122CC01628007118CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB95EE112CC01628007118CF /* Vios.app */,
+				FB95EE2A2CC01628007118CF /* ViosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB95EE132CC01628007118CF /* Vios */ = {
+			isa = PBXGroup;
+			children = (
+				FB95EE182CC01628007118CF /* ViosApp.swift */,
+				FB95EE1A2CC01628007118CF /* ContentView.swift */,
+				FB95EE1C2CC01628007118CF /* ImmersiveView.swift */,
+				FB95EE1E2CC01628007118CF /* ImageBasedLighting.skybox */,
+				FB95EE202CC01628007118CF /* Assets.xcassets */,
+				FB95EE252CC01628007118CF /* Info.plist */,
+				FB95EE222CC01628007118CF /* Preview Content */,
+			);
+			path = Vios;
+			sourceTree = "<group>";
+		};
+		FB95EE142CC01628007118CF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FB95EE152CC01628007118CF /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FB95EE222CC01628007118CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB95EE232CC01628007118CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB95EE2D2CC01628007118CF /* ViosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB95EE2E2CC01628007118CF /* ViosTests.swift */,
+			);
+			path = ViosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB95EE102CC01628007118CF /* Vios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB95EE322CC01628007118CF /* Build configuration list for PBXNativeTarget "Vios" */;
+			buildPhases = (
+				FB95EE0D2CC01628007118CF /* Sources */,
+				FB95EE0E2CC01628007118CF /* Frameworks */,
+				FB95EE0F2CC01628007118CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vios;
+			packageProductDependencies = (
+				FB95EE162CC01628007118CF /* RealityKitContent */,
+			);
+			productName = Vios;
+			productReference = FB95EE112CC01628007118CF /* Vios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB95EE292CC01628007118CF /* ViosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB95EE352CC01628007118CF /* Build configuration list for PBXNativeTarget "ViosTests" */;
+			buildPhases = (
+				FB95EE262CC01628007118CF /* Sources */,
+				FB95EE272CC01628007118CF /* Frameworks */,
+				FB95EE282CC01628007118CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB95EE2C2CC01628007118CF /* PBXTargetDependency */,
+			);
+			name = ViosTests;
+			productName = ViosTests;
+			productReference = FB95EE2A2CC01628007118CF /* ViosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB95EE092CC01628007118CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FB95EE102CC01628007118CF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FB95EE292CC01628007118CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB95EE102CC01628007118CF;
+					};
+				};
+			};
+			buildConfigurationList = FB95EE0C2CC01628007118CF /* Build configuration list for PBXProject "Vios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB95EE082CC01628007118CF;
+			productRefGroup = FB95EE122CC01628007118CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB95EE102CC01628007118CF /* Vios */,
+				FB95EE292CC01628007118CF /* ViosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB95EE0F2CC01628007118CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95EE212CC01628007118CF /* Assets.xcassets in Resources */,
+				FB95EE242CC01628007118CF /* Preview Assets.xcassets in Resources */,
+				FB95EE1F2CC01628007118CF /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95EE282CC01628007118CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB95EE0D2CC01628007118CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95EE1B2CC01628007118CF /* ContentView.swift in Sources */,
+				FB95EE192CC01628007118CF /* ViosApp.swift in Sources */,
+				FB95EE1D2CC01628007118CF /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95EE262CC01628007118CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95EE2F2CC01628007118CF /* ViosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB95EE2C2CC01628007118CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB95EE102CC01628007118CF /* Vios */;
+			targetProxy = FB95EE2B2CC01628007118CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB95EE302CC01628007118CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		FB95EE312CC01628007118CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		FB95EE332CC01628007118CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.Vios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		FB95EE342CC01628007118CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.Vios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		FB95EE362CC01628007118CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.ViosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vios";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		FB95EE372CC01628007118CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DDMI.ViosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vios";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB95EE0C2CC01628007118CF /* Build configuration list for PBXProject "Vios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB95EE302CC01628007118CF /* Debug */,
+				FB95EE312CC01628007118CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB95EE322CC01628007118CF /* Build configuration list for PBXNativeTarget "Vios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB95EE332CC01628007118CF /* Debug */,
+				FB95EE342CC01628007118CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB95EE352CC01628007118CF /* Build configuration list for PBXNativeTarget "ViosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB95EE362CC01628007118CF /* Debug */,
+				FB95EE372CC01628007118CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB95EE162CC01628007118CF /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FB95EE092CC01628007118CF /* Project object */;
+}
